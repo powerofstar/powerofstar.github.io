@@ -14,10 +14,7 @@
          <div class="ring"></div>
       </div>
       <div class="content">
-         <div class="image"></div>
-      </div>
-
-          <div class="text">
+         <div class="text">
             <div>
              <font size="8"
                face="verdana"
@@ -36,13 +33,15 @@
                Por aqui você encontra nossos projetos e até mesmo conteúdos <strong>escondidos</strong>.
             </font>
          </div>
+         <div class="image"></div>
+      </div>
 
       <script>
          const loader = document.querySelector(".loader");
          window.onload = function(){
            setTimeout(function(){
              loader.style.opacity = "0";
-             loader.style.backgroundcolor = "dimgrey;"
+             loader.style.color = "dimgrey;"
              setTimeout(function(){
                loader.style.display = "none";
              }, 500);
