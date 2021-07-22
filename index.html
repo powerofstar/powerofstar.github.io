@@ -1,41 +1,39 @@
-<!doctype html>
-<html>
-  <head>
-    <style media="screen" type="text/css">
-      .layer1_class { position: absolute; z-index: 1; top: 100px; left: 0px; visibility: visible; }
-      .layer2_class { position: absolute; z-index: 2; top: 10px; left: 10px; visibility: hidden }
-    </style>
-    <script>
-      function downLoad(){
-        if (document.all){
-            document.all["layer1"].style.visibility="hidden";
-            document.all["layer2"].style.visibility="visible";
-        } else if (document.getElementById){
-            node = document.getElementById("layer1").style.visibility='hidden';
-            node = document.getElementById("layer2").style.visibility='visible';
-        }
-      }
-    </script>
-  </head>
-  <body onload="downLoad()">
-    <div id="layer1" class="layer1_class">
-      <table width="100%">
-        <tr>
-        </tr>
-      </table>
-    </div>
-    <div id="layer2" class="layer2_class">
-        <script type="text/javascript">
-         alert('Atenção esta página tem autoria do grupo Power of Star e não tem fins lucratios. Pressione ok para continuar.');
-        </script>
-    </div>
-  </body>
-</html>
-<html>
-  <head>
-    <title>Power of Star</title>
-  </head>
-  <body>
-    <p>Esta é a página oficial do grupo de desenvolvimento Power of Star. Aqui <strong>você</strong> pode encontrar nossos projetos e outros conteúdos, alguns <strong>escondidos</strong> por nosso site. Boa sorte para encontra-los!</p>
-  </body>
+<!DOCTYPE html>
+<!-- Criado por iSonork -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Power of Star</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="loader">
+         <div class="ring"></div>
+      </div>
+      <div class="content">
+         <div class="image"></div>
+         <div class="text">
+            <div class="title">
+               loading
+            </div>
+            <p>
+             Local algo
+            </p>
+            <p>
+               Localing..
+            </p>
+         </div>
+      </div>
+      <script>
+         const loader = document.querySelector(".loader");
+         window.onload = function(){
+           setTimeout(function(){
+             loader.style.opacity = "0";
+             setTimeout(function(){
+               loader.style.display = "none";
+             }, 500);
+           },1500);
+         }
+      </script>
+   </body>
 </html>
