@@ -1,11 +1,9 @@
 {
   "images" : [
-        {
-          "name" : "web_logo",
+        "web_logo" : {
           "url" : "https://powerofstar.github.io/data/image/website_logo.png"
         },
-        {
-          "name" : "web_background",
+        "web_background" : {
           "url" : "https://powerofstar.github.io/data/image/website_background.png"
         },
       ]
