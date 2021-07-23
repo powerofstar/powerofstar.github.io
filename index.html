@@ -14,7 +14,9 @@
     }
 
     function background(obj) {
+      console.log(obj)
       const results = JSON.parse(obj);
+      console.log(results)
       document.body.style.background=results.images[2].url
     }
 
