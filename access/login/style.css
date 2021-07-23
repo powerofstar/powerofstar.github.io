@@ -18,9 +18,32 @@ body{
     text-align: center;
 }
 
+.card-group{
+    margin-bottom: 10px;   
+}
+
 .card-group > label{
     width: 100%;
     color: rgb(75, 75, 75);
+    display: block;
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+.card-group > button{
+    background-image: linear-gradient(to right, gray, black);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
 }
 
 .loginpng{
