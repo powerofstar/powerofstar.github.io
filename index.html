@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <!-- Criado por iSonork -->
 <html lang="en" dir="ltr">
+   <script>
+    const header = document.querySelector('header');
+    const section = document.querySelector('section');
+
+    let requestURL = 'https://powerofstar.github.io/json/images.json';
+    let request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+
+    request.onload = function() {
+      const data = request.response;
+      background(data);
+    }
+
+    function populateHeader(obj) {
+      const Results = Object.entries(obj)
+      document.body.style.background=Results[1].url
+    }
+
+    </script>
    <head>
       <meta charset="utf-8">
       <title>
