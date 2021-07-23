@@ -18,6 +18,11 @@ body{
     text-align: center;
 }
 
+.card-group > label{
+    width: 100%;
+    color: rgb(75, 75, 75);
+}
+
 .loginpng{
      border-radius: 50px;
      width: 100px;
