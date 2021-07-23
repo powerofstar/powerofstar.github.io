@@ -14,8 +14,8 @@
     }
 
     function background(obj) {
-      const Results = obj.images
-      document.body.style.background=Results.web_background.url
+      const Results = obj
+      document.body.style.background=Results['images'][2]['url']
     }
 
     </script>
