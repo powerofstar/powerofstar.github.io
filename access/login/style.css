@@ -13,3 +13,17 @@ body{
     padding: 30px;
     border-radius: 5px;
 }
+
+.card-top{
+    text-align: center;
+}
+
+.loginpng{
+     border-radius: 50px;
+     width: 100px;
+     box-shadow: 3px 2px 5px #ccc;
+}
+
+.title{
+    
+}
