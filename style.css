@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: #666;
   transition: all 0.5s;
 }
 .loader .ring{
