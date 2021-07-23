@@ -109,6 +109,11 @@ body{
     outline: 0;
 }
 
+
+.che > label{
+    margin-left: 3px;
+}
+
 .btn button:hover{
     background-image: linear-gradient(to right, dimgray, dimgray);
 }
