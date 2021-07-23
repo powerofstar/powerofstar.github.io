@@ -46,6 +46,10 @@ body{
     outline: 0;
 }
 
+.btn button:hover{
+    background-image: linear-gradient(to right, black, gray);
+}
+
 .loginpng{
      border-radius: 50px;
      width: 100px;
