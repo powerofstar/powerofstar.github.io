@@ -1,1 +1,13 @@
-
+{
+  "images" : [
+        {
+          "name" : "web_logo"
+          "url" : "Molecule Man"
+        },
+        {
+          "name" : "web_background"
+          "url" : "raw.github.com/powerofstar/powerofstar.github.io/blob/main/website_background.png"
+        },
+      ]
+    }
+}
