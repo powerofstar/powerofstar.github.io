@@ -1,5 +1,4 @@
 {
-  "data" : [
       "images" : {
         "web_logo" : {
           "url" : "https://powerofstar.github.io/data/image/website_logo.png"
@@ -8,5 +7,4 @@
           "url" : "https://powerofstar.github.io/data/image/website_background.png"
         },
       }
-    ]
 }
