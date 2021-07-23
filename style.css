@@ -41,7 +41,7 @@
   }
 }
 .content .image{
-  background: "https://powerofstar.github.io/data/image/website_background.png" no-repeat;
+  background: "https://powerofstar.github.io/data/image/website_background.png";
   height: 100vh;
   background-size: cover;
   background-position: center;
