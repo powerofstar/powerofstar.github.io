@@ -2,10 +2,10 @@
 
 session_start();
 
-$localhost = "localhost";
+$localhost = "https://databases-auth.000webhost.com/tbl_sql.php?db=id17313634_powerofstardata";
 $user = "root";
-$passw = "";
-$banco = "powerofstardata";
+$passw = "v(dQNqK~gP5#_Y<(";
+$banco = "id17313634_powerofstardata";
 
 global $pdo;
 
